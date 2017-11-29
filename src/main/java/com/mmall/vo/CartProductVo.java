@@ -3,7 +3,7 @@ package com.mmall.vo;
 import java.math.BigDecimal;
 
 /**
- * Created by geely
+ * 购物车产品详情
  */
 public class CartProductVo {
 
@@ -18,7 +18,7 @@ public class CartProductVo {
     private String productMainImage;
     private BigDecimal productPrice;
     private Integer productStatus;
-    private BigDecimal productTotalPrice;
+    private BigDecimal productTotalPrice;//购物中此商品的总价
     private Integer productStock;
     private Integer productChecked;//此商品是否勾选
 
